@@ -1,7 +1,8 @@
 # Predicting Human Motion in Human–Robot Collaboration Using PINNs and Computer Vision
 
 A Physics-Informed Neural Network (PINN) approach that combines vision-based human tracking with human biomechanics to anticipate human arm/hand motion **100–500ms ahead** during human-robot collaboration tasks.
-
+![Architecture](assets/video.jpeg)
+![Architecture](assets/record.jpeg)
 ---
 
 ## 1. Problem Statement

@@ -126,7 +126,7 @@ Compare PINN vs. a non-physics-informed baseline (LSTM/Transformer, same traject
 - [x] Write data loader for IMU skeleton (BVH files)
 - [x] Write data loader for synchronized RGB video (3 views)
 - [x] Synchronize IMU + RGB streams per action sample
-- [ ] Train/val/test split strategy
+- [x] Train/val/test split strategy
 
 ### Step 2 — Vision Pipeline
 - [ ] Obtain/verify camera calibration parameters for InHARD views
@@ -136,22 +136,22 @@ Compare PINN vs. a non-physics-informed baseline (LSTM/Transformer, same traject
 - [ ] Validate CV-extracted joints against IMU ground truth (sanity check)
 
 ### Step 3 — Physics Setup
-- [ ] Implement anthropometric body-segment parameter tables (de Leva 1996 or equivalent)
-- [ ] Implement inverse dynamics from IMU skeleton (compute τ per joint)
-- [ ] Restrict to shoulder–elbow–wrist chain (Phase 1 scope)
-- [ ] Validate computed dynamics against known biomechanics benchmarks
+- [x] Implement anthropometric body-segment parameter tables (de Leva 1996 or equivalent)
+- [x] Implement inverse dynamics from IMU skeleton (compute τ per joint)
+- [x] Restrict to shoulder–elbow–wrist chain (Phase 1 scope)
+- [x] Validate computed dynamics against known biomechanics benchmarks
 
 ### Step 4 — Model (PINN)
-- [ ] Define input windowing (observed trajectory window → prediction horizon)
-- [ ] Implement base network architecture (encoder + predictor)
-- [ ] Implement L_data loss term
-- [ ] Implement L_dynamics loss term (physics constraint)
-- [ ] Implement L_smoothness loss term (minimum-jerk)
+- [x] Define input windowing (observed trajectory window → prediction horizon)
+- [x] Implement base network architecture (encoder + predictor)
+- [x] Implement L_data loss term
+- [x] Implement L_dynamics loss term (physics constraint)
+- [x] Implement L_kinematics loss term
 - [ ] Implement L_limits loss term (joint angle/vel/torque limits)
-- [ ] Combine into total loss L with tunable λ weights
-- [ ] Train baseline (non-physics) model — LSTM/Transformer
-- [ ] Train PINN model
-- [ ] Hyperparameter tuning (λ weights, window size, horizon)
+- [x] Combine into total loss L with tunable λ weights
+- [x] Train baseline (non-physics) model — LSTM/Transformer
+- [x] Train PINN model
+- [x] Hyperparameter tuning (λ weights, window size, horizon)
 
 ### Step 5 — Evaluation
 - [ ] Implement MPJPE metric at 100ms/200ms/500ms

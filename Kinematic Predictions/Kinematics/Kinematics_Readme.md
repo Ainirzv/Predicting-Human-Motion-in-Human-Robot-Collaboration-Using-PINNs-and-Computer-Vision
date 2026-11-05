@@ -1,5 +1,6 @@
 ## Kinematics Structure
 
+```text
 Kinematics/
 │
 ├── Test01_bvh_Global_RShoulder/
@@ -121,3 +122,4 @@ Kinematics/
                     ├── X_Plots.png
                     ├── Y_Plots.png
                     └── Z_Plots.png
+```

@@ -17,3 +17,18 @@ The primary purpose of this directory is to maintain an organized collection of 
 It allows different implementations to be explored, their results to be analyzed, and their performance to be examined across different upper-limb body segments.
 
 The directory is intended to evolve as additional experiments, prediction methods, and analysis approaches are developed.
+
+
+## Kinematic Predictions Structure
+
+## Directory Structure
+
+```text
+Kinematic Predictions/
+│
+├── README.md
+│
+├── Kinematics/
+│
+    
+```

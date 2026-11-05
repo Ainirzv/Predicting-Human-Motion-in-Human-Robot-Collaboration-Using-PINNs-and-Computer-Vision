@@ -1,3 +1,16 @@
+
+# Kinematics
+
+
+## Overview
+
+The **Kinematics** directory contains experimental implementations and analysis workflows for performing kinematic predictions across different right upper-limb segments: the Right Shoulder, Right Arm, Right Forearm, and Right Hand.
+
+Each experiment includes the corresponding input data, window creation procedures, kinematic prediction implementations, prediction reports, and visualizations comparing predicted and actual trajectories.
+
+The directory is organized to facilitate the exploration, evaluation, and comparison of different approaches to kinematic prediction.
+
+
 ## Kinematics Structure
 
 ```text

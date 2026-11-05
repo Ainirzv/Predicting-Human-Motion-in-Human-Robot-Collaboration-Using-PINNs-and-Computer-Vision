@@ -4,28 +4,11 @@
 
 The **Kinematic Predictions** directory contains various experiments, methods, and approaches explored for performing kinematic predictions.
 
-It serves as a collection of experimental implementations, analysis workflows, prediction results, and supporting visualizations developed during the exploration of different approaches to kinematic prediction.
+It serves as a collection of experimental implementations, with each implementation's own analysis workflows, prediction results, and supporting visualizations developed during the exploration of different approaches to kinematic prediction.
+The Kinematic Predictions folder consists of different implementations and experimentations of Kinematic Prediction.
 
-## Directory Structure
+Each folder in "Kinematic Predictions" focuses on a different approach for kinematic analysis and predictions of the 4 specific joints (RightShoulder, RightArm, RightForeArm, RightHand).
 
-The `Kinematics` directory contains separate experimental folders corresponding to different upper-limb body segments:
-
-- **Test01_bvh_Global_RShoulder** – Experiments related to the right shoulder.
-- **Test02_bvh_Global_RArm** – Experiments related to the right arm.
-- **Test03_bvh_Global_RForeArm** – Experiments related to the right forearm.
-- **Test04_bvh_Global_RHand** – Experiments related to the right hand.
-
-Each experimental folder contains its respective analysis and supporting files.
-
-## Contents of Experimental Folders
-
-Depending on the experiment, the folders contain:
-
-- **Window Creation:** Notebooks and supporting datasets used for window creation and analysis.
-- **Kinematic Prediction:** Jupyter notebooks containing the experimental implementations of kinematic prediction approaches.
-- **Plotting Predictions:** Visualizations comparing predicted and actual kinematic trajectories, including selected best-performing and worst-performing windows.
-- **Prediction Reports:** Excel reports containing the corresponding kinematic prediction results.
-- **Supporting Data:** Original and windowed datasets used in the respective experiments.
 
 ## Purpose
 
